@@ -1,14 +1,35 @@
+
+* {
+    text-align: right;
+}
+
 body {
-    background: greenyellow;
+    background-image: url(https://images.unsplash.com/photo-1663571473113-d3fc49bbe775?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 h1 {
-    background-color: beige;
+    background-color: rgb(223, 220, 245);
 }
-h2 {
+
+h2,p {
     color: red;
     text-align: center;
-    border: 5px solid purple;
+    border: 5px dashed purple;
+    cursor: pointer;
 }
+
 p {
     color: orchid;
 } 
+
+p{
+    color: green;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+}
